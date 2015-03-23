@@ -1,0 +1,6 @@
+name = "CPAN-Common-Index-CPANfile"
+# badges = ["travis"]
+authority="cpan:SKAJI"
+
+module_maker="ModuleBuildTiny"
+
