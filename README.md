@@ -25,13 +25,9 @@ CPAN::Common::Index::CPANfile - make index for cpanfile
 
 CPAN::Common::Index::CPANfile makes index for cpanfile's `git` or `dist` sources.
 
-# LICENSE
+# COPYRIGHT AND LICENSE
 
-Copyright (C) Shoichi Kaji.
+Copyright 2016 Shoichi Kaji <skaji@cpan.org>
 
 This library is free software; you can redistribute it and/or modify
 it under the same terms as Perl itself.
-
-# AUTHOR
-
-Shoichi Kaji <skaji@cpan.org>

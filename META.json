@@ -4,40 +4,35 @@
       "Shoichi Kaji <skaji@cpan.org>"
    ],
    "dynamic_config" : 0,
-   "generated_by" : "Minilla/v2.3.0, CPAN::Meta::Converter version 2.143240",
+   "generated_by" : "Dist::Milla version v1.0.16, Dist::Zilla version 6.006, CPAN::Meta::Converter version 2.150005",
    "license" : [
       "perl_5"
    ],
    "meta-spec" : {
       "url" : "http://search.cpan.org/perldoc?CPAN::Meta::Spec",
-      "version" : "2"
+      "version" : 2
    },
    "name" : "CPAN-Common-Index-CPANfile",
    "no_index" : {
       "directory" : [
-         "t",
-         "xt",
-         "inc",
-         "share",
          "eg",
          "examples",
-         "author",
-         "builder"
+         "inc",
+         "share",
+         "t",
+         "xt"
       ]
    },
    "prereqs" : {
       "configure" : {
          "requires" : {
-            "Module::Build::Tiny" : "0.035"
+            "ExtUtils::MakeMaker" : "0"
          }
       },
       "develop" : {
          "requires" : {
-            "Test::CPAN::Meta" : "0",
-            "Test::MinimumVersion::Fast" : "0.04",
-            "Test::PAUSE::Permissions" : "0.04",
-            "Test::Pod" : "1.41",
-            "Test::Spellunker" : "v0.2.7"
+            "Dist::Milla" : "v1.0.16",
+            "Test::Pod" : "1.41"
          }
       },
       "runtime" : {
@@ -57,18 +52,20 @@
          }
       }
    },
-   "release_status" : "unstable",
+   "release_status" : "stable",
    "resources" : {
       "bugtracker" : {
-         "web" : "https://github.com/shoichikaji/CPAN-Common-Index-CPANfile/issues"
+         "web" : "https://github.com/skaji/CPAN-Common-Index-CPANfile/issues"
       },
-      "homepage" : "https://github.com/shoichikaji/CPAN-Common-Index-CPANfile",
+      "homepage" : "https://github.com/skaji/CPAN-Common-Index-CPANfile",
       "repository" : {
          "type" : "git",
-         "url" : "git://github.com/shoichikaji/CPAN-Common-Index-CPANfile.git",
-         "web" : "https://github.com/shoichikaji/CPAN-Common-Index-CPANfile"
+         "url" : "https://github.com/skaji/CPAN-Common-Index-CPANfile.git",
+         "web" : "https://github.com/skaji/CPAN-Common-Index-CPANfile"
       }
    },
    "version" : "0.01",
-   "x_authority" : "cpan:SKAJI"
+   "x_serialization_backend" : "Cpanel::JSON::XS version 3.0217",
+   "x_static_install" : "1"
 }
+
