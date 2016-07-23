@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/skaji/CPAN-Common-Index-CPANfile.svg?branch=master)](https://travis-ci.org/skaji/CPAN-Common-Index-CPANfile)
+
 # NAME
 
 CPAN::Common::Index::CPANfile - make index for cpanfile
